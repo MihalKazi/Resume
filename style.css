@@ -1,0 +1,479 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    max-width: 960px;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: .193em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Google Sans", "Roboto", sans-serif;
+        font-size: 13px;
+        line-height: 1.35;
+        color: #3c4043;
+        background: #fff;
+        max-width: 210mm;
+        margin: 0 auto;
+        padding: 15mm 12mm;
+        min-height: 297mm;
+      }
+
+      .resume-header {
+        text-align: center;
+        margin-bottom: 18mm;
+        padding-bottom: 8mm;
+        border-bottom: 1px solid #e8eaed;
+      }
+
+      h1 {
+        font-size: 24pt;
+        font-weight: 400;
+        color: #202124;
+        margin-bottom: 4mm;
+        letter-spacing: -0.3px;
+      }
+
+      .job-title {
+        font-size: 14pt;
+        color: #5f6368;
+        font-weight: 400;
+        margin-bottom: 8mm;
+      }
+
+      .contact-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12mm;
+        margin-top: 6mm;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 2mm;
+        color: #1a73e8;
+        text-decoration: none;
+        font-size: 10pt;
+      }
+
+      .contact-item:hover {
+        text-decoration: underline;
+      }
+
+      .contact-item i {
+        font-size: 14px;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15mm;
+        align-items: start;
+      }
+
+      .section {
+        margin-bottom: 12mm;
+      }
+
+      .section-title {
+        font-size: 12pt;
+        font-weight: 500;
+        color: #202124;
+        margin-bottom: 6mm;
+        display: flex;
+        align-items: center;
+        gap: 3mm;
+      }
+
+      .section-title::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #e8eaed;
+      }
+
+      .section-content {
+        margin-left: 0;
+      }
+
+      .experience-item,
+      .education-item {
+        margin-bottom: 8mm;
+        padding-bottom: 6mm;
+      }
+
+      .experience-item:not(:last-child),
+      .education-item:not(:last-child) {
+        border-bottom: 0.5px solid #f1f3f4;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 3mm;
+        flex-wrap: wrap;
+        gap: 2mm;
+      }
+
+      .item-title {
+        font-size: 11pt;
+        font-weight: 500;
+        color: #202124;
+        line-height: 1.2;
+      }
+
+      .item-company,
+      .item-school {
+        font-size: 10pt;
+        color: #1a73e8;
+        margin-bottom: 2mm;
+        line-height: 1.2;
+      }
+
+      .item-date {
+        font-size: 9pt;
+        color: #5f6368;
+        font-weight: 400;
+        white-space: nowrap;
+      }
+
+      .item-description {
+        font-size: 10pt;
+        color: #3c4043;
+        margin-bottom: 4mm;
+        line-height: 1.3;
+      }
+
+      .achievements {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .achievements li {
+        position: relative;
+        padding-left: 8mm;
+        margin-bottom: 2mm;
+        font-size: 10pt;
+        color: #3c4043;
+        line-height: 1.25;
+      }
+
+      .achievements li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #1a73e8;
+        font-weight: bold;
+      }
+
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3mm;
+      }
+
+      .skill-item {
+        background: #f8f9fa;
+        padding: 2mm 4mm;
+        border-radius: 3mm;
+        text-align: center;
+        font-size: 9pt;
+        color: #3c4043;
+        border: 0.5px solid #e8eaed;
+        transition: all 0.2s ease;
+      }
+
+      .skill-item:hover {
+        background: #e8f0fe;
+        border-color: #1a73e8;
+      }
+
+      .gpa-badge {
+        background: #e8f5e8;
+        color: #137333;
+        padding: 1mm 4mm;
+        border-radius: 3mm;
+        font-size: 9pt;
+        font-weight: 500;
+        display: inline-block;
+        margin-top: 2mm;
+      }
+
+      .project-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #1a73e8;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 16px;
+        transition: background-color 0.2s ease;
+      }
+
+      .project-link:hover {
+        background: #1557b0;
+      }
+
+      .summary-text {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #3c4043;
+        background: #f8f9fa;
+        padding: 16px;
+        border-radius: 8px;
+        border-left: 4px solid #1a73e8;
+      }
+
+      /* Two-column layout is now default for A4 */
+      .left-column {
+        order: 1;
+      }
+
+      .right-column {
+        order: 2;
+      }
+
+      .full-width {
+        grid-column: 1 / -1;
+        order: 0;
+        margin-bottom: 8mm;
+      }
+
+      /* Mobile responsive - stack for very small screens */
+      @media (max-width: 600px) {
+        body {
+          padding: 20px 15px;
+          max-width: 100%;
+        }
+
+        main {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+
+        h1 {
+          font-size: 20pt;
+        }
+
+        .job-title {
+          font-size: 12pt;
+        }
+
+        .contact-bar {
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+
+      /* Mobile responsive */
+      @media (max-width: 600px) {
+        body {
+          padding: 40px 20px;
+        }
+
+        h1 {
+          font-size: 28px;
+        }
+
+        .job-title {
+          font-size: 16px;
+        }
+
+        .contact-bar {
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .item-header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .skills-grid {
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+      }
+
+      /* Print styles optimized for A4 */
+      @media print {
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+
+        body {
+          font-size: 10pt;
+          max-width: 190mm;
+          padding: 0;
+          line-height: 1.2;
+          margin: 0;
+        }
+
+        .resume-header {
+          margin-bottom: 12mm;
+          padding-bottom: 6mm;
+        }
+
+        h1 {
+          font-size: 18pt;
+          margin-bottom: 3mm;
+        }
+
+        .job-title {
+          font-size: 12pt;
+          margin-bottom: 6mm;
+        }
+
+        .contact-bar {
+          gap: 8mm;
+          margin-top: 4mm;
+        }
+
+        .contact-item {
+          font-size: 9pt;
+          color: #000 !important;
+        }
+
+        main {
+          gap: 12mm;
+        }
+
+        .section {
+          margin-bottom: 8mm;
+        }
+
+        .section-title {
+          font-size: 11pt;
+          margin-bottom: 4mm;
+        }
+
+        .full-width {
+          margin-bottom: 6mm;
+        }
+
+        .experience-item,
+        .education-item {
+          margin-bottom: 6mm;
+          padding-bottom: 4mm;
+        }
+
+        .item-title {
+          font-size: 10pt;
+        }
+
+        .item-company,
+        .item-school {
+          font-size: 9pt;
+        }
+
+        .item-date {
+          font-size: 8pt;
+        }
+
+        .item-description {
+          font-size: 9pt;
+          margin-bottom: 3mm;
+        }
+
+        .achievements li {
+          font-size: 9pt;
+          margin-bottom: 1mm;
+          line-height: 1.15;
+          padding-left: 6mm;
+        }
+
+        .summary-text {
+          font-size: 9pt;
+          padding: 4mm;
+          line-height: 1.25;
+        }
+
+        .project-link {
+          background: #f0f0f0 !important;
+          color: #000 !important;
+          border: 1px solid #ccc;
+          font-size: 9pt;
+          padding: 3mm 6mm;
+        }
+
+        .skill-item {
+          font-size: 8pt;
+          padding: 1.5mm 3mm;
+          margin: 0;
+        }
+
+        .gpa-badge {
+          font-size: 8pt;
+          padding: 1mm 3mm;
+        }
+
+        .contact-item i {
+          font-size: 8pt;
+        }
+      }
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+
+    main { 
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin-top: 3em;
+    }
+
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    margin: .2em auto
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
