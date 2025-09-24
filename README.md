@@ -32,8 +32,8 @@ I am a **Computer Science and Engineering student** passionate about **full-stac
 
 ## 🎯 Education
 - **Bachelor of Science in CSE** – Daffodil International University (2022 – Present)  
-- **HSC** – Govt. Hazi Muhammad Muhsin College, GPA 5.00 (2021)  
-- **SSC** – Rotary School, GPA 4.89 (2019)  
+- **HSC** – Govt. Hazi Muhammad Muhsin College, (2021)  
+- **SSC** – Rotary School, (2019)  
 
 ---
 
